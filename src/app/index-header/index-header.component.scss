@@ -1,0 +1,58 @@
+header {
+  background-color: #040404c4;
+  color: white;
+  font-family: -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Oxygen,
+  Ubuntu,
+  Cantarell,
+  'Open Sans',
+  'Helvetica Neue',
+  sans-serif;
+}
+
+body {
+  color: black;
+  font-family: -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Oxygen,
+  Ubuntu,
+  Cantarell,
+  'Open Sans',
+  'Helvetica Neue',
+  sans-serif;
+}
+
+button {
+  width: 100px;
+}
+
+.center-spacing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.buttom-separe {
+  display: flex;
+}
+
+.btn-login {
+  button {
+    width: 100px;
+    background: black;
+  }
+}
+
+.btn-register {
+  button {
+    width: 100px;
+    background: black;
+  }
+}
+
