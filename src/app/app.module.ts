@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {IndexHeaderComponent} from "./index-header/index-header.component";
 import { FooterIndexComponent } from './footer-index/footer-index.component';
+import { HomePageExcelComponent } from './home-page-excel/home-page-excel.component';
+import {TemplateModule} from "./template/template.module";
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexHeaderComponent,
-    FooterIndexComponent
+    FooterIndexComponent,
+    HomePageExcelComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TemplateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
